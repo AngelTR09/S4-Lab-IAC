@@ -1,0 +1,15 @@
+# Copia este archivo a terraform.tfvars y ajusta los valores.
+# terraform.tfvars se carga automáticamente por "terraform plan/apply"
+# (no necesitas -var-file). No se commitea porque db_password es un
+# secreto (ver .gitignore).
+
+db_name     = "iac_lab04"
+db_user     = "iac_lab04_user"
+db_password = "changeme"
+
+dev_web_port = 4001
+dev_api_port = 4002
+dev_db_port  = 4003
+qa_web_port  = 5001
+qa_api_port  = 5002
+qa_db_port   = 5003

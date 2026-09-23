@@ -1,0 +1,8 @@
+# Terraform
+iac/.terraform/
+iac/terraform.tfstate
+iac/terraform.tfstate.backup
+iac/*.tfplan
+
+# Secretos locales
+iac/terraform.tfvars
