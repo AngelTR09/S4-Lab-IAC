@@ -8,5 +8,5 @@ terraform
 
 para prod quiero 8080 external 
 para qa quiero 5000 external 
-para DEv quiero 400
-se esta considerando  el puerto 300 en default
+para DEv quiero 4000
+se esta considerando  el puerto 3000 en default
